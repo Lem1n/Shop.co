@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@font-face {
+	font-family: "Satoshi-Bold", sans-serif;
+	src: url("/fonts/Satoshi-Bold.woff2") format("woff2");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Satoshi-Medium", sans-serif;
+	src: url("/fonts/Satoshi-Medium.woff2") format("woff2");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Satoshi-Regular", sans-serif;
+	src: url("/fonts/Satoshi-Regulawoff2") format("woff2");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Integral-CF-Bold", sans-serif;
+	src: url("/fonts/IntegralCF-Bold.woff2") format("woff2");
+	font-weight: normal;
+}
+:root {
+	line-height: 1.5;
+	color-scheme: light dark;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.custom-container {
+	max-width: 1440px;
+	padding: 0 100px;
+	margin: 0 auto;
+}
+body {
+	font-family: "Satoshi-Regular";
+	color: black;
+	background-color: white;
+	margin: 0;
+	width: 100%;
+	min-height: 100vh;
+}
+li {
+	white-space: nowrap;
+}
+
+button {
+	cursor: pointer;
+	transition: border-color 0.25s;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}

@@ -1,0 +1,278 @@
+openapi: 3.0.3
+info:
+  title: Clothing Store API
+  description: API для работы с базой данных одежды по стилям (Casual, Formal, Party, Gym)
+  version: 1.0.1
+  contact:
+    name: Clothing API
+    email: api@clothing-store.ru
+
+servers:
+  - url: http://localhost:3000/clothes
+    description: Production server
+
+paths:
+  /clothes:
+    get:
+      summary: Получить все товары
+      tags: [Clothes]
+      parameters:
+        - name: style
+          in: query
+          schema:
+            type: string
+            enum: [Casual, Formal, Party, Gym]
+          description: Фильтр по стилю
+        - name: type
+          in: query
+          schema:
+            type: string
+          description: Фильтр по типу одежды
+        - name: minPrice
+          in: query
+          schema:
+            type: number
+          description: Минимальная цена
+        - name: maxPrice
+          in: query
+          schema:
+            type: number
+          description: Максимальная цена
+        - name: size
+          in: query
+          schema:
+            type: string
+            enum: [Small, Medium, Large, X-large, One Size]
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+          description: Лимит товаров
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            minimum: 0
+      responses:
+        '200':
+          description: Список товаров
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  clothes:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ClothingItem'
+                  total:
+                    type: integer
+                  filters:
+                    $ref: '#/components/schemas/FiltersApplied'
+        '400':
+          description: Неверные параметры запроса
+
+  /clothes/{id}:
+    get:
+      summary: Получить товар по ID
+      tags: [Clothes]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            pattern: '^\d{5,8}$'
+          description: ID товара (5-8 цифр)
+      responses:
+        '200':
+          description: Товар найден
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ClothingItem'
+        '404':
+          description: Товар не найден
+
+  /clothes/{id}/comments:
+    get:
+      summary: Получить комментарии к товару
+      tags: [Comments]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+            pattern: '^\d{5,8}$'
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 20
+        - name: sort
+          in: query
+          schema:
+            type: string
+            enum: [date_desc, date_asc, rating_desc, rating_asc]
+      responses:
+        '200':
+          description: Список комментариев
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  comments:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Comment'
+                  total:
+                    type: integer
+
+  /styles:
+    get:
+      summary: Получить доступные стили
+      tags: [Styles]
+      responses:
+        '200':
+          description: Список стилей
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Style'
+
+components:
+  schemas:
+    ClothingItem:
+      type: object
+      required: [id, style, type, author, name, price, rating, colors, size, photos]
+      properties:
+        id:
+          type: string
+          pattern: '^\d{5,8}$'
+          description: Уникальный ID товара (5-8 цифр)
+        style:
+          type: string
+          enum: [Casual, Formal, Party, Gym]
+        type:
+          type: string
+          enum: [T-shirts, Shirts, Jeans, Shorts, Hoodie, Blazer, Tie, Vest, Trousers, Undershirts]
+        author:
+          type: string
+          maxLength: 50
+        name:
+          type: string
+          maxLength: 100
+        price:
+          type: object
+          required: [new]
+          properties:
+            new:
+              type: number
+              minimum: 0
+            old:
+              type: number
+              minimum: 0
+        rating:
+          type: number
+          minimum: 0
+          maximum: 5
+          format: float
+        colors:
+          type: array
+          items:
+            type: string
+          minItems: 1
+        size:
+          type: array
+          items:
+            type: string
+            enum: [Small, Medium, Large, X-large, One Size]
+          minItems: 1
+        photos:
+          type: array
+          items:
+            type: string
+            format: uri
+          minItems: 1
+        comments:
+          type: array
+          items:
+            $ref: '#/components/schemas/Comment'
+
+    Comment:
+      type: object
+      required: [id, rating, name, text, createdAt]
+      properties:
+        id:
+          type: string
+          pattern: '^\d{5,8}$'
+        rating:
+          type: number
+          minimum: 1
+          maximum: 5
+        name:
+          type: string
+          maxLength: 50
+        text:
+          type: string
+          maxLength: 500
+        createdAt:
+          type: string
+          pattern: '^\d{2}\.\d{2}\.\d{4}$'
+          example: "13.02.2026"
+
+    NewComment:
+      type: object
+      required: [rating, name, text]
+      properties:
+        rating:
+          type: number
+          minimum: 1
+          maximum: 5
+        name:
+          type: string
+          maxLength: 50
+        text:
+          type: string
+          maxLength: 500
+
+    Style:
+      type: object
+      properties:
+        name:
+          type: string
+          enum: [Casual, Formal, Party, Gym]
+        types:
+          type: array
+          items:
+            type: string
+        description:
+          type: string
+
+    FiltersApplied:
+      type: object
+      properties:
+        style:
+          type: string
+          nullable: true
+        type:
+          type: string
+          nullable: true
+        priceRange:
+          type: object
+          properties:
+            min:
+              type: number
+            max:
+              type: number
+        size:
+          type: array
+          items:
+            type: string
