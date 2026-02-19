@@ -1,8 +1,8 @@
-import { DressStyle } from "../../widgets/home/dress-style/dress-style";
 import { Intro } from "../../widgets/home/intro/intro";
 import { Brands } from "../../widgets/brands/brands";
 import { NewProducts } from "../../widgets/home/new-products/newProducts";
 import { TopSelling } from "../../widgets/home/top-selling/topSelling";
+import { DressStyle } from "../../widgets/home/dress-style/dress-style";
 
 function Home (){
 	return (

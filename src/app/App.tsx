@@ -1,13 +1,26 @@
 import "./styles/App.css";
 import { Header } from "../widgets/header/header";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
+import { Breadcrumbs } from "@/features/breadcrumbs/breadcrumbs";
+import { FixedHeader } from "@/features/header/fixed-header";
+import { Suspense, useEffect } from "react";
 
 function App() {
+	useEffect(()=>{
+		FixedHeader();
+	},[])
+	const location = useLocation();
+
 	return (
 		<>
 			<Header />
-			<main>
-				<Outlet />
+			<main
+				className={`${location.pathname !== "/" ? "custom-container" : ""}`}
+			>
+				<Suspense fallback={<div>Загрузка страницы...</div>}>
+					<Breadcrumbs />
+					<Outlet />
+				</Suspense>
 			</main>
 		</>
 	);

@@ -1,37 +1,41 @@
-import { Link, useMatches, type UIMatch } from "react-router-dom";
+// Breadcrumbs.tsx
+import {useLocation, useMatches } from "react-router-dom";
 import SvgIcon from "../svg-icon/SvgIcon";
-import { ROUTES } from "../../app/Routes/Routes";
-
-
-interface SimpleHandle {
-	breadcrumb: string; // просто строка
-}
-
-const useTypedMatches = () =>
-	useMatches() as UIMatch<unknown, SimpleHandle>[];
 
 export const Breadcrumbs = () => {
-  const matches = useTypedMatches();
-  
-  const crumbs = matches
-    .filter(match => match.handle?.breadcrumb)
-    .map((match, index) => ({
-      path: match.pathname,
-      label: match.handle.breadcrumb  // string, без функций/params
-    }));
+	const matches = useMatches();
+	const location = useLocation();
 
-  return (
-    <nav>
-      {crumbs.map((crumb, index) => (
-        <span key={crumb.path}>
-          {index < crumbs.length - 1 ? (
-            <Link to={crumb.path}>{crumb.label}</Link>
-          ) : (
-            <strong>{crumb.label}</strong>  // текущая страница
-          )}
-          {index < crumbs.length - 1 && ' / '}
-        </span>
-      ))}
-    </nav>
-  );
+	if (location.pathname === '/') return
+
+	const crumbs = matches
+		.filter((match) => Boolean((match.handle as any)?.crumb))
+		.map((match) => {
+			const handle = match.handle as {
+				crumb: (data: unknown) => React.ReactNode;
+			};
+			return handle.crumb(match.data);
+		});
+	if (!crumbs.length) return null;
+
+	return (
+		<div>
+			<hr className="text-black/10 mb-6" />
+			<nav aria-label="breadcrumbs">
+				<ul className="flex items-center gap-3 mb-9">
+					{crumbs.map((crumb, index) => (
+						<li key={index} className="flex items-center gap-1">
+							{crumb}
+							{index < crumbs.length - 1 && (
+								<SvgIcon
+									name="shared-arrow-mini"
+									className="rotate-270 w-4 h-4 opacity-40"
+								/>
+							)}
+						</li>
+					))}
+				</ul>
+			</nav>
+		</div>
+	);
 };

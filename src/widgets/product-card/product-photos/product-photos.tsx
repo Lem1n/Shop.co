@@ -9,14 +9,14 @@ interface Photos {
 }
 export const ProductPhotos = ({ item }: ProductPhotos) => {
 	const [usePhoto, setUsePhoto] = useState(`${item.photos[0].url}`);
-	const [selectedId, setSelectedId] = useState("");
+	const [selectedId, setSelectedId] = useState("1");
 	const handlePhoto = (photo: Photos) => {
 		setUsePhoto(photo.url);
 		setSelectedId(photo.id);
 	};
 	return (
 		<div className="flex">
-			<div className="flex flex-col gap-3.5 mr-3">
+			<div className="flex flex-col justify-between mr-3">
 				{item.photos.map((photo) => (
 					<div key={photo.id} className="w-[152px] h-[167px]">
 						<img

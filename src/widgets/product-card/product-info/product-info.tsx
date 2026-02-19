@@ -18,7 +18,9 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 	const [currentColor, setCurrentColor] = useState("");
 	const [amount, setAmount] = useState(1);
 
-	const handleCart = () => {};
+	const handleCart = () => {
+		
+	};
 
 	return (
 		<div className="w-full">
@@ -30,14 +32,14 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 				</div>
 				{item.price.old ? (
 					<div className="flex items-center gap-2.5 font-['Satoshi-Bold'] text-3xl font-bold">
-						<div>${item.price.new}</div>
+						<span>${item.price.new}</span>
 						<s className="opacity-40">${item.price.old}</s>
 						<span className="flex items-center  text-xs text-red-600 bg-red-600/10 py-1.5 px-3.5 rounded-4xl font-bold font-['Satoshi-Medium']">
 							-{percent}%
 						</span>
 					</div>
 				) : (
-					<div>${item.price.new}</div>
+					<span>${item.price.new}</span>
 				)}
 				<p className="text-black/60 mt-5">{item.description}</p>
 			</div>
@@ -45,7 +47,7 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 			<div>
 				<div className="mb-4">Select Colors</div>
 				<Colors
-					colors={item.colors}
+					data={item}
 					className=""
 					currentColor={currentColor}
 					setCurrentColor={setCurrentColor}
@@ -55,7 +57,7 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 			<div>
 				<div className="mb-4">Choose Size</div>
 				<Size
-					size={item.size}
+					data={item}
 					selectSize={selectSize}
 					setSelectSize={setSelectSize}
 					className="gap-3"

@@ -6,7 +6,7 @@ function Shop (){
     
   return (
 		<section>
-			<div className="custom-container">
+			<div>
 				<ul>
 					<li>
 						<Link to={ROUTES.HOME}>Home</Link>

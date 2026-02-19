@@ -41,10 +41,12 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
+header {
+z-index: 9;
+}
 li {
 	white-space: nowrap;
 }
-
 button {
 	cursor: pointer;
 	transition: border-color 0.25s;

@@ -1,33 +1,64 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
-import type {
-	ICart,
-	ICartItems,
-	itemId,
-} from "../type/type";
+import type { ICart, ICartItems, itemId } from "../type/type";
 
-type handleCartAction = {
-	payload: ICartItems;
-	itemId: itemId;
-	type: "increment" | "decrement";
+const initialState: ICartItems = {
+	cart: {},
+	Ids: [],
 };
+const initialItemAmount: ICart = {
+	id: "",
+	color: "",
+	name: "",
+	photo: "",
+	price: 0,
+	size: "",
+	amount: 0,
+};
+interface AddCartAction {
+	payload: ICart;
+}
 
-const initialState: ICartItems = {};
-const initialItemAmount: ICart = { amount: 0 };
+interface HandleCartAction {
+	payload: { type: "increment" | "decrement" };
+	itemId: itemId;
+}
+
+interface RemoveCartAction {
+	itemId: itemId;
+}
 
 export const cartSlice = createSlice({
 	name: "cart",
 	initialState,
 	reducers: {
-		handleCart: (state, action: PayloadAction<handleCartAction>) => {
+		addCart: (state, action: PayloadAction<AddCartAction>) => {
+			const item = action.payload.payload;
+			if (state.cart[item.id]) {
+				state.cart[item.id].amount++;
+			} else {
+				state.cart[item.id] = item;
+				state.Ids.push(item.id);
+			}
+		},
+		handleCart: (state, action: PayloadAction<HandleCartAction>) => {
 			const { itemId } = action.payload;
-			if (!state.cart[itemId]) {
-				state.cart[itemId] = initialItemAmount;
+			const item = state.cart[itemId];
+			if (!item) return; // early return вместо добавления пустого
+
+			if (action.payload.payload.type === "increment") {
+				item.amount++;
+			} else if (action.payload.payload.type === "decrement") {
+				item.amount--;
+				if (item.amount <= 0) {
+					delete state.cart[itemId];
+					state.Ids = state.Ids.filter((id) => id !== itemId);
+				}
 			}
-			if (action.type === "increment") {
-				state.cart[itemId].amount++;
-			} else if (action.type === "decrement") {
-				state.cart[itemId].amount--;
-			}
+		},
+		removeCart: (state, action: PayloadAction<RemoveCartAction>) => {
+			const { itemId } = action.payload;
+			delete state.cart[itemId]; // для Record используй delete (immer позволяет)
+			state.Ids = state.Ids.filter((id) => id !== itemId);
 		},
 	},
 });
