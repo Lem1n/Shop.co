@@ -1,10 +1,10 @@
-import { ProductMini } from "../../entities/product-mini/productMini";
-import { useGetProductsFilterPageQuery } from "../../shared/api/Product.api";
-import { ButtonLink } from "../../shared/buttons/buttonLink";
+import { ProductMini } from "../../product-mini/productMini";
+import { useGetProductsFilterPageQuery } from "../../../shared/api/Product.api";
+import { ButtonLink } from "../../../shared/buttons/buttonLink";
 
-export const TopSelling = () => {
+export const NewProducts = () => {
 	const { data, isLoading, error } = useGetProductsFilterPageQuery(
-		"_page=5&_per_page=4",
+		"_page=1&_per_page=4&_sort=createdAt",
 	);
 
 	// вызвать рандомные объекты с _page=4 / по кнопке перейти на страницу с полными данными
@@ -12,7 +12,7 @@ export const TopSelling = () => {
 		<section>
 			<div className="custom-container">
 				<h2 className="uppercase text-5xl text-center font-extrabold mt-18 mb-14.5">
-					Top selling
+					New arrivals
 				</h2>
 				<div className="flex items-top gap-5">
 					{isLoading ? (

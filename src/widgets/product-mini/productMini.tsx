@@ -1,7 +1,7 @@
 import { href, Link } from "react-router-dom";
 import type { Product } from "../../shared/api/types/api.types";
-import { calcPercent } from "../calcPercent/calcPercent";
-import { Stars } from "../Stars/stars";
+import { calcPercent } from "../../entities/calcPercent/calcPercent";
+import { Stars } from "../../entities/Stars/stars";
 import { ROUTES } from "../../app/Routes/Routes";
 
 interface ProductMini {
@@ -15,7 +15,7 @@ export const ProductMini = ({ item }: ProductMini) => {
 		<div>
 			<div className="w-[295] h-[298]">
 				<Link to={href(ROUTES.PRODUCT, { itemId: item.id })}>
-					<img className="rounded-2xl" src={item.photos[0]} />
+					<img className="rounded-2xl" src={item.photos[0].url} />
 				</Link>
 			</div>
 			<div className="pt-4">

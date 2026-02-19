@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { ROUTES } from "../../app/Routes/Routes"
 
 
-export const Cart = () => {
+function Cart() {
 
   return (
     <section>
@@ -15,3 +15,5 @@ export const Cart = () => {
     </section>
   )
 }
+
+export const Component = Cart

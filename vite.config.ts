@@ -5,6 +5,7 @@ import { createSvgIconsPlugin } from "vite-plugin-svg-icons";
 import path from 'path';
 
 export default defineConfig({
+	base: '/',
 	plugins: [
 		react({
 			babel: {
@@ -30,7 +31,7 @@ export default defineConfig({
 	],
 	resolve: {
 		alias: {
-			"@": path.resolve( "./src"),
+			"@": path.resolve(__dirname, "./src"),
 		},
 	},
 });

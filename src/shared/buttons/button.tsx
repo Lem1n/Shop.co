@@ -1,10 +1,11 @@
 interface Button {
     onClick: () => void,
-    value: string
+    value: string,
+    className: string
 }
-export const Button = ({onClick, value}:Button) => {
+export const Button = ({onClick, value, className}:Button) => {
 
     return (
-        <button className="font-base py-3.5 px-17 rounded-4xl bg-black" onClick={onClick}>{value}</button>
+        <button className={`font-base rounded-4xl text-white bg-black ${className}`} onClick={onClick}>{value}</button>
     )
 }

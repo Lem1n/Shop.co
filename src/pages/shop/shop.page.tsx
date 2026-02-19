@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ROUTES } from "../../app/Routes/Routes";
 
 
-export const Shop = () => {
+function Shop (){
     
   return (
 		<section>
@@ -17,3 +17,5 @@ export const Shop = () => {
 		</section>
   );
 }
+
+export const Component = Shop;

@@ -1,4 +1,4 @@
-import { DressStyleCard } from "../../features/dress-style/dress-style-card";
+import { DressStyleCard } from "../../../features/dress-style/dress-style-card";
 import casual from "/public/dress/casual.png";
 import formal from "/public/dress/formal.png";
 import party from "/public/dress/party.png";

@@ -1,17 +1,13 @@
-import { Routes } from "react-router-dom";
-import "./App.css";
+import "./styles/App.css";
 import { Header } from "../widgets/header/header";
-import { RoutePath } from "./Routes/RoutePath";
-
+import { Outlet } from "react-router-dom";
 
 function App() {
 	return (
 		<>
 			<Header />
 			<main>
-				<Routes>
-					<RoutePath/>
-				</Routes>
+				<Outlet />
 			</main>
 		</>
 	);

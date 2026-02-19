@@ -6,6 +6,7 @@ const productDtoSchema = z.object({
 	categoryId: z.number(),
 	author: z.string(),
 	name: z.string(),
+	description: z.string(),
 	price: z.object({
 		new: z.number(),
 		old: z.number(),
@@ -14,7 +15,7 @@ const productDtoSchema = z.object({
 	colors: z.array(z.string()),
 	createdAt: z.string(),
 	size: z.array(z.string()),
-	photos: z.array(z.string()),
+	photos: z.array(z.object({ id: z.string(), url: z.string() })),
 	comments: z.array(
 		z.object({
 			id: z.string(),

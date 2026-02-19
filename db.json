@@ -6,18 +6,24 @@
 			"categoryId": 1,
 			"author": "UrbanWear",
 			"name": "Cotton Breeze T-Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1299, "old": 1899 },
 			"rating": 4.7,
 			"colors": ["White", "Black", "Gray", "Navy"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "01.02.2026",
 			"comments": [
@@ -64,18 +70,24 @@
 			"categoryId": 1,
 			"author": "StreetStyle",
 			"name": "Urban Graphic Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1499, "old": 2199 },
 			"rating": 4.6,
 			"colors": ["Black", "White", "Red"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "02.02.2026",
 			"comments": [
@@ -122,18 +134,24 @@
 			"categoryId": 1,
 			"author": "DailyWear",
 			"name": "Classic Crew Neck",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1399, "old": 1999 },
 			"rating": 4.8,
 			"colors": ["Navy", "Gray", "White"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "03.02.2026",
 			"comments": [
@@ -180,18 +198,24 @@
 			"categoryId": 8,
 			"author": "StreetStyle",
 			"name": "Canvas Cargo Shorts",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2499, "old": 3599 },
 			"rating": 4.5,
 			"colors": ["Khaki", "Black", "Olive"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "04.02.2026",
 			"comments": [
@@ -238,18 +262,24 @@
 			"categoryId": 8,
 			"author": "SummerVibes",
 			"name": "Denim Shorts",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2299, "old": 3299 },
 			"rating": 4.4,
 			"colors": ["Blue", "Black", "Light Wash"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "05.02.2026",
 			"comments": [
@@ -296,18 +326,24 @@
 			"categoryId": 8,
 			"author": "ActiveWear",
 			"name": "Athletic Shorts",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1999, "old": 2799 },
 			"rating": 4.6,
 			"colors": ["Gray", "Navy", "Black"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "06.02.2026",
 			"comments": [
@@ -354,18 +390,24 @@
 			"categoryId": 3,
 			"author": "DailyWear",
 			"name": "Oxford Casual Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2999, "old": 4499 },
 			"rating": 4.8,
 			"colors": ["Blue", "White", "Light Gray"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "07.02.2026",
 			"comments": [
@@ -412,18 +454,24 @@
 			"categoryId": 3,
 			"author": "UrbanCasual",
 			"name": "Flannel Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3499, "old": 4999 },
 			"rating": 4.7,
 			"colors": ["Red", "Blue", "Green"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "08.02.2026",
 			"comments": [
@@ -470,18 +518,24 @@
 			"categoryId": 3,
 			"author": "CozyThreads",
 			"name": "Linen Blend Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3199, "old": 4599 },
 			"rating": 4.9,
 			"colors": ["Beige", "White", "Light Blue"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "09.02.2026",
 			"comments": [
@@ -528,18 +582,24 @@
 			"categoryId": 4,
 			"author": "CozyThreads",
 			"name": "Essential Hoodie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3999, "old": 5499 },
 			"rating": 4.9,
 			"colors": ["Black", "Gray", "Green"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "10.02.2026",
 			"comments": [
@@ -586,18 +646,24 @@
 			"categoryId": 4,
 			"author": "StreetStyle",
 			"name": "Graphic Hoodie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4499, "old": 5999 },
 			"rating": 4.7,
 			"colors": ["Black", "White", "Red"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "11.02.2026",
 			"comments": [
@@ -644,18 +710,24 @@
 			"categoryId": 4,
 			"author": "UrbanWear",
 			"name": "Oversize Hoodie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4299, "old": 5799 },
 			"rating": 4.8,
 			"colors": ["Gray", "Navy", "Olive"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "12.02.2026",
 			"comments": [
@@ -702,18 +774,24 @@
 			"categoryId": 9,
 			"author": "DenimMasters",
 			"name": "Slim Fit Jeans",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4999, "old": 6999 },
 			"rating": 4.6,
 			"colors": ["Blue", "Black", "Dark Wash"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "13.02.2026",
 			"comments": [
@@ -760,18 +838,24 @@
 			"categoryId": 9,
 			"author": "UrbanDenim",
 			"name": "Straight Fit Jeans",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5199, "old": 7199 },
 			"rating": 4.7,
 			"colors": ["Indigo", "Black", "Gray"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "14.02.2026",
 			"comments": [
@@ -818,18 +902,24 @@
 			"categoryId": 9,
 			"author": "ClassicDenim",
 			"name": "Relaxed Fit Jeans",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4799, "old": 6599 },
 			"rating": 4.5,
 			"colors": ["Blue Wash", "Black", "Stonewash"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "15.02.2026",
 			"comments": [
@@ -876,18 +966,24 @@
 			"categoryId": 3,
 			"author": "ExecutiveWear",
 			"name": "Classic Dress Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3499, "old": 4999 },
 			"rating": 4.8,
 			"colors": ["White", "Light Blue"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "16.02.2026",
 			"comments": [
@@ -934,18 +1030,24 @@
 			"categoryId": 3,
 			"author": "FormalElite",
 			"name": "Slim Fit Dress Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3699, "old": 5299 },
 			"rating": 4.9,
 			"colors": ["White", "Sky Blue", "Pale Pink"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "17.02.2026",
 			"comments": [
@@ -992,18 +1094,24 @@
 			"categoryId": 3,
 			"author": "BusinessWear",
 			"name": "Spread Collar Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 3899, "old": 5499 },
 			"rating": 4.7,
 			"colors": ["White", "Light Gray", "Blue"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "18.02.2026",
 			"comments": [
@@ -1050,18 +1158,24 @@
 			"categoryId": 5,
 			"author": "ExecutiveWear",
 			"name": "Single Breasted Blazer",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 12999, "old": 17999 },
 			"rating": 4.8,
 			"colors": ["Navy", "Charcoal", "Black"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "19.02.2026",
 			"comments": [
@@ -1108,18 +1222,24 @@
 			"categoryId": 5,
 			"author": "FormalElite",
 			"name": "Classic Fit Blazer",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 13999, "old": 18999 },
 			"rating": 4.7,
 			"colors": ["Gray", "Navy", "Black"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "20.02.2026",
 			"comments": [
@@ -1166,18 +1286,24 @@
 			"categoryId": 5,
 			"author": "BusinessWear",
 			"name": "Slim Fit Blazer",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 11999, "old": 16999 },
 			"rating": 4.6,
 			"colors": ["Midnight Blue", "Charcoal"],
 			"size": ["Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "21.02.2026",
 			"comments": [
@@ -1224,18 +1350,24 @@
 			"categoryId": 9,
 			"author": "TieMasters",
 			"name": "Silk Classic Tie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1999, "old": 2999 },
 			"rating": 4.9,
 			"colors": ["Navy", "Burgundy", "Black"],
 			"size": ["One Size"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "22.02.2026",
 			"comments": [
@@ -1282,18 +1414,24 @@
 			"categoryId": 9,
 			"author": "FormalAccessories",
 			"name": "Patterned Silk Tie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2299, "old": 3499 },
 			"rating": 4.8,
 			"colors": ["Blue", "Red", "Gray"],
 			"size": ["One Size"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "23.02.2026",
 			"comments": [
@@ -1340,18 +1478,24 @@
 			"categoryId": 9,
 			"author": "ExecutiveTies",
 			"name": "Solid Color Tie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1799, "old": 2699 },
 			"rating": 4.7,
 			"colors": ["Black", "Navy", "Maroon"],
 			"size": ["One Size"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "24.02.2026",
 			"comments": [
@@ -1398,18 +1542,24 @@
 			"categoryId": 6,
 			"author": "FormalWear",
 			"name": "Classic Waistcoat",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5999, "old": 8499 },
 			"rating": 4.8,
 			"colors": ["Navy", "Gray", "Black"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "25.02.2026",
 			"comments": [
@@ -1456,18 +1606,24 @@
 			"categoryId": 6,
 			"author": "BusinessVest",
 			"name": "Slim Fit Vest",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5799, "old": 8299 },
 			"rating": 4.7,
 			"colors": ["Charcoal", "Black"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "26.02.2026",
 			"comments": [
@@ -1514,18 +1670,24 @@
 			"categoryId": 6,
 			"author": "ExecutiveWear",
 			"name": "Patterned Vest",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 6199, "old": 8799 },
 			"rating": 4.6,
 			"colors": ["Navy", "Burgundy"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "27.02.2026",
 			"comments": [
@@ -1572,18 +1734,24 @@
 			"categoryId": 7,
 			"author": "FormalPants",
 			"name": "Classic Wool Trousers",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 7999, "old": 10999 },
 			"rating": 4.8,
 			"colors": ["Black", "Navy", "Gray"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "28.02.2026",
 			"comments": [
@@ -1630,18 +1798,24 @@
 			"categoryId": 7,
 			"author": "BusinessWear",
 			"name": "Slim Fit Trousers",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 8499, "old": 11999 },
 			"rating": 4.7,
 			"colors": ["Charcoal", "Black"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "01.01.2026",
 			"comments": [
@@ -1688,18 +1862,24 @@
 			"categoryId": 7,
 			"author": "ExecutivePants",
 			"name": "Pleated Trousers",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 7799, "old": 10799 },
 			"rating": 4.6,
 			"colors": ["Navy", "Gray"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "02.01.2026",
 			"comments": [
@@ -1746,18 +1926,24 @@
 			"categoryId": 7,
 			"author": "NightLife",
 			"name": "Slim Fit Party Pants",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 6999, "old": 9999 },
 			"rating": 4.7,
 			"colors": ["Black", "Dark Blue", "Charcoal"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "03.01.2026",
 			"comments": [
@@ -1804,18 +1990,24 @@
 			"categoryId": 7,
 			"author": "ClubWear",
 			"name": "Skinny Fit Trousers",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 7499, "old": 10499 },
 			"rating": 4.6,
 			"colors": ["Black", "Burgundy"],
 			"size": ["Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "04.01.2026",
 			"comments": [
@@ -1862,18 +2054,24 @@
 			"categoryId": 7,
 			"author": "EveningWear",
 			"name": "Tapered Trousers",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 6799, "old": 9699 },
 			"rating": 4.8,
 			"colors": ["Black", "Midnight Blue"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "05.01.2026",
 			"comments": [
@@ -1920,18 +2118,24 @@
 			"categoryId": 1,
 			"author": "PartyVibes",
 			"name": "Metallic Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2499, "old": 3499 },
 			"rating": 4.6,
 			"colors": ["Silver", "Gold", "Black"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "06.01.2026",
 			"comments": [
@@ -1978,18 +2182,24 @@
 			"categoryId": 1,
 			"author": "NightWear",
 			"name": "Neon Graphic Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2299, "old": 3299 },
 			"rating": 4.7,
 			"colors": ["Neon Green", "Pink", "White"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "07.01.2026",
 			"comments": [
@@ -2036,18 +2246,24 @@
 			"categoryId": 1,
 			"author": "ClubStyle",
 			"name": "Printed Party Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2599, "old": 3699 },
 			"rating": 4.5,
 			"colors": ["Black", "Red", "Electric Blue"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "08.01.2026",
 			"comments": [
@@ -2094,18 +2310,24 @@
 			"categoryId": 3,
 			"author": "EveningWear",
 			"name": "Silk Party Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4999, "old": 6999 },
 			"rating": 4.8,
 			"colors": ["Black", "Purple", "Deep Blue"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "09.01.2026",
 			"comments": [
@@ -2152,18 +2374,24 @@
 			"categoryId": 3,
 			"author": "NightLife",
 			"name": "Satin Button Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5299, "old": 7299 },
 			"rating": 4.7,
 			"colors": ["Silver", "Black", "Burgundy"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "10.01.2026",
 			"comments": [
@@ -2210,18 +2438,24 @@
 			"categoryId": 3,
 			"author": "ClubWear",
 			"name": "Patterned Dress Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 4799, "old": 6799 },
 			"rating": 4.6,
 			"colors": ["Dark Red", "Navy", "Black"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "11.01.2026",
 			"comments": [
@@ -2268,18 +2502,24 @@
 			"categoryId": 4,
 			"author": "PartyVibes",
 			"name": "Light Up Hoodie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5999, "old": 7999 },
 			"rating": 4.7,
 			"colors": ["Black", "Neon Green"],
 			"size": ["Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "12.01.2026",
 			"comments": [
@@ -2326,18 +2566,24 @@
 			"categoryId": 4,
 			"author": "NightWear",
 			"name": "Reflective Hoodie",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 5799, "old": 7799 },
 			"rating": 4.6,
 			"colors": ["Silver", "Black"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "13.01.2026",
 			"comments": [
@@ -2384,18 +2630,24 @@
 			"categoryId": 4,
 			"author": "ClubStyle",
 			"name": "Neon Print Hoodi",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 6199, "old": 8199 },
 			"rating": 4.8,
 			"colors": ["Electric Blue", "Pink"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "14.01.2026",
 			"comments": [
@@ -2442,18 +2694,24 @@
 			"categoryId": 1,
 			"author": "FitWear",
 			"name": "Performance Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1999, "old": 2799 },
 			"rating": 4.8,
 			"colors": ["Black", "Gray", "Navy"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "15.01.2026",
 			"comments": [
@@ -2500,18 +2758,24 @@
 			"categoryId": 1,
 			"author": "ActiveGear",
 			"name": "Dry Fit T-Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1899, "old": 2699 },
 			"rating": 4.7,
 			"colors": ["White", "Blue", "Green"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "16.01.2026",
 			"comments": [
@@ -2558,18 +2822,24 @@
 			"categoryId": 1,
 			"author": "GymPro",
 			"name": "Compression Tee",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2299, "old": 3199 },
 			"rating": 4.9,
 			"colors": ["Black", "Red", "Gray"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "17.01.2026",
 			"comments": [
@@ -2616,18 +2886,24 @@
 			"categoryId": 2,
 			"author": "FitBase",
 			"name": "Moisture Wicking Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1599, "old": 2399 },
 			"rating": 4.7,
 			"colors": ["White", "Black", "Gray"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "18.01.2026",
 			"comments": [
@@ -2674,18 +2950,24 @@
 			"categoryId": 2,
 			"author": "ActiveWear",
 			"name": "Seamless Undershirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 1499, "old": 2299 },
 			"rating": 4.6,
 			"colors": ["Skin", "Black", "White"],
 			"size": ["Small", "Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "19.01.2026",
 			"comments": [
@@ -2732,18 +3014,24 @@
 			"categoryId": 3,
 			"author": "FitWear",
 			"name": "Training Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2799, "old": 3899 },
 			"rating": 4.7,
 			"colors": ["Black", "Olive", "Blue"],
 			"size": ["Small", "Medium", "Large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "20.01.2026",
 			"comments": [
@@ -2790,18 +3078,24 @@
 			"categoryId": 3,
 			"author": "ActiveGear",
 			"name": "Muscle Tank Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2499, "old": 3599 },
 			"rating": 4.8,
 			"colors": ["Gray", "Black", "Red"],
 			"size": ["Medium", "Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "21.01.2026",
 			"comments": [
@@ -2848,18 +3142,24 @@
 			"categoryId": 3,
 			"author": "GymPro",
 			"name": "Breathable Shirt",
+			"description": "Discover the perfect combination of style and functionality in this product. Made from premium materials, it provides durability and comfort for every day.",
 			"price": { "new": 2999, "old": 4099 },
 			"rating": 4.6,
 			"colors": ["Navy", "White", "Green"],
 			"size": ["Large", "X-large"],
 			"photos": [
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13",
-				"https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg",
-				"https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				{
+					"id": "1",
+					"url": "https://avatars.mds.yandex.net/i?id=4a5d2041c2ca2feabe65869b5ed2c935_l-5088908-images-thumbs&n=13"
+				},
+				{
+					"id": "2",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				},
+				{
+					"id": "3",
+					"url": "https://cdn.modrinth.com/user/FRNvV0tu/b2559fa486d0182a4f7e505db50408bc1a114bbb.jpeg"
+				}
 			],
 			"createdAt": "20.01.2026",
 			"comments": [
