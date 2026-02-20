@@ -5,25 +5,16 @@ const initialState: ICartItems = {
 	cart: {},
 	Ids: [],
 };
-const initialItemAmount: ICart = {
-	id: "",
-	color: "",
-	name: "",
-	photo: "",
-	price: 0,
-	size: "",
-	amount: 0,
-};
-interface AddCartAction {
+interface AddItemAction {
 	payload: ICart;
 }
 
-interface HandleCartAction {
+interface HandleItemAction {
 	payload: { type: "increment" | "decrement" };
 	itemId: itemId;
 }
 
-interface RemoveCartAction {
+interface RemoveItemAction {
 	itemId: itemId;
 }
 
@@ -31,7 +22,7 @@ export const cartSlice = createSlice({
 	name: "cart",
 	initialState,
 	reducers: {
-		addCart: (state, action: PayloadAction<AddCartAction>) => {
+		addItem: (state, action: PayloadAction<AddItemAction>) => {
 			const item = action.payload.payload;
 			if (state.cart[item.id]) {
 				state.cart[item.id].amount++;
@@ -40,24 +31,29 @@ export const cartSlice = createSlice({
 				state.Ids.push(item.id);
 			}
 		},
-		handleCart: (state, action: PayloadAction<HandleCartAction>) => {
+		handleItem: (state, action: PayloadAction<HandleItemAction>) => {
 			const { itemId } = action.payload;
 			const item = state.cart[itemId];
-			if (!item) return; // early return вместо добавления пустого
+			if (!item) return;
 
-			if (action.payload.payload.type === "increment") {
+			const { type } = action.payload.payload;
+			const prevAmount = item.amount; 
+			const { price } = item;
+
+			if (type === "increment") {
 				item.amount++;
-			} else if (action.payload.payload.type === "decrement") {
+			} else if (type === "decrement") {
 				item.amount--;
-				if (item.amount <= 0) {
-					delete state.cart[itemId];
-					state.Ids = state.Ids.filter((id) => id !== itemId);
-				}
 			}
+
+			const oldUnitPrice = price.old / prevAmount;
+			const newUnitPrice = price.new / prevAmount;
+			price.old = oldUnitPrice * item.amount;
+			price.new = newUnitPrice * item.amount;
 		},
-		removeCart: (state, action: PayloadAction<RemoveCartAction>) => {
+		removeItem: (state, action: PayloadAction<RemoveItemAction>) => {
 			const { itemId } = action.payload;
-			delete state.cart[itemId]; // для Record используй delete (immer позволяет)
+			delete state.cart[itemId];
 			state.Ids = state.Ids.filter((id) => id !== itemId);
 		},
 	},

@@ -3,7 +3,6 @@ import { type PathParams, ROUTES } from "../../app/Routes/Routes";
 import { useGetProductQuery } from "../../shared/api/Product.api";
 import { ProductPhotos } from "../../widgets/product-card/product-photos/product-photos";
 import { ProductInfo } from "../../widgets/product-card/product-info/product-info";
-import { HR } from "../../shared/hr-tag/HR";
 import { ProductComments } from "@/widgets/product-card/product-bottom/comments/comments";
 import { useState, type JSX } from "react";
 
@@ -20,14 +19,7 @@ function ProductCard() {
 		{
 			id: 1,
 			label: "Product Details",
-			content: (
-				<div>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Dolores at aperiam facere, quibusdam molestias corporis
-					necessitatibus. Natus eos voluptatum minima perferendis odit
-					ipsa, excepturi culpa magnam suscipit aperiam autem ab!
-				</div>
-			),
+			content: <ProductComments item={data ? data : null} />,
 		},
 		{
 			id: 2,
@@ -68,7 +60,7 @@ function ProductCard() {
 					{tabs.map((i) => (
 						<li
 							key={i.id}
-							className={`${i.id === activeTab ? "border-b-[2px] border-black" : "border-b-[1px] border-black/10"} text-center w-full`}
+							className={`${i.id === activeTab ? "border-b-[2px] border-black" : "border-b-[1px] border-black/10"} pb-6 text-center w-full`}
 						>
 							<button
 								className="text-xl"

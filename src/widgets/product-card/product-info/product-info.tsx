@@ -7,6 +7,8 @@ import { Button } from "../../../shared/buttons/button";
 import { useState } from "react";
 import { HandleAmount } from "../../../features/handle-amount/amount";
 import { HR } from "../../../shared/hr-tag/HR";
+import { useActions } from "@/entities/cart/hooks/useActions";
+import type { ICart } from "@/entities/cart/type/type";
 
 interface ProductInfo {
 	item: Product;
@@ -14,18 +16,24 @@ interface ProductInfo {
 
 export const ProductInfo = ({ item }: ProductInfo) => {
 	const percent = calcPercent({ newP: item.price.new, oldP: item.price.old });
-	const [selectSize, setSelectSize] = useState("");
-	const [currentColor, setCurrentColor] = useState("");
+	const [selectSize, setSelectSize] = useState<string>("");
+	const [currentColor, setCurrentColor] = useState<string>("");
 	const [amount, setAmount] = useState(1);
 
-	const handleCart = () => {
-		
-	};
+	const {addItem} = useActions();
+
+	const newItem: ICart = {
+		...item,
+		price: { new: amount * item.price.new, old: amount * item.price.old },
+		size: selectSize,
+		color: currentColor ,
+		amount: amount,
+	}; 
 
 	return (
 		<div className="w-full">
 			<div className="pt-4">
-				<h1 className="text-4xl font-bold">{item.name}</h1>
+				<h1 className="text-5xl font-bold">{item.name}</h1>
 				<div className="flex py-3.5 items-center gap-3">
 					<Stars rating={item.rating} />
 					<div className="flex items-center">{item.rating}/5</div>
@@ -67,13 +75,15 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 			<div className="flex align-center gap-5">
 				<HandleAmount
 					amount={amount}
-					setAmount={setAmount}
+					changeAmountMinus={() => setAmount((prev) => prev - 1)}
+					changeAmountPlus={() => setAmount((prev) => prev + 1)}
 					className="py-3 px-5 w-1/3"
 				/>
 				<Button
 					value="Add to Cart"
-					className="w-2/3"
-					onClick={() => handleCart}
+					className="w-2/3 disabled:bg-black/30"
+					onClick={() => addItem({ payload: newItem })}
+					disabled={selectSize === "" || currentColor === ""}
 				/>
 			</div>
 		</div>

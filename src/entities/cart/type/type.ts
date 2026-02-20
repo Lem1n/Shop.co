@@ -1,12 +1,9 @@
+import type { Product } from "@/shared/api/types/api.types";
 
 
-export interface ICart {
-	id: string;
-	name: string;
-	size: string | string[];
-	color: string | string[];
-	price: number;
-	photo: string;
+export interface ICart extends Omit<Product, 'comments' | "size" | "colors"> {
+	size: string;
+	color: string;
 	amount: number;
 }
 

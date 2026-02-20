@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 import SvgIcon from "../../../features/svg-icon/SvgIcon";
 import { ROUTES } from "../../../app/Routes/Routes";
 import { Logo } from "../../../shared/logo/logo";
+import { useCart } from "@/entities/cart/hooks/useCart";
 
 export const Nav = () => {
+
+	const {cart} = useCart();
+
 	return (
 		<nav className="flex items-center w-full h-12 gap-10">
 			<Logo />
@@ -30,11 +34,16 @@ export const Nav = () => {
 				/>
 			</div>
 			<div className="flex gap-3.5 items-center">
-				<Link to={ROUTES.CART}>
-					<SvgIcon className="w-6 h-6" name="entities-cart" />
+				<Link to={ROUTES.CART} className="relative">
+					<SvgIcon className="w-7 h-7" name="entities-cart" />
+					{cart.Ids.length !== 0 && (
+						<span className="bg-red-500 text-white font-bold rounded-2xl w-5 h-5 text-[12px] flex items-center justify-center absolute right-[-5px] top-[-5px]">
+							{cart.Ids.length}
+						</span>
+					)}
 				</Link>
 				<Link to={ROUTES.PROFILE}>
-					<SvgIcon className="w-6 h-6" name="entities-profile" />
+					<SvgIcon className="w-7 h-7" name="entities-profile" />
 				</Link>
 			</div>
 		</nav>
