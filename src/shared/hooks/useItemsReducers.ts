@@ -15,5 +15,7 @@ export const useItemsReducers = () => {
 	const Discount = itemsOldPrice - itemsTotalPrice;
 	const percent = calcPercent({ newP: itemsTotalPrice, oldP: itemsOldPrice });
 
-	return { itemsOldPrice, itemsTotalPrice, Discount, percent };
+	const Delivery = Math.round(itemsTotalPrice ? itemsTotalPrice / 30 : 0) 
+
+	return { itemsOldPrice, itemsTotalPrice, Discount, percent, Delivery };
 };

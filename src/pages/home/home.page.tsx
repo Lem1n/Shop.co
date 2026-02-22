@@ -5,6 +5,7 @@ import { TopSelling } from "../../widgets/home/top-selling/topSelling";
 import { DressStyle } from "../../widgets/home/dress-style/dress-style";
 
 function Home (){
+	document.title = "Shop.co"
 	return (
 		<>
 			<Intro />

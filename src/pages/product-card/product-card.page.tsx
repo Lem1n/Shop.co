@@ -47,6 +47,7 @@ function ProductCard() {
 		if (isLoading) return <div>Загрузка...</div>;
 		if (error) return <div>Ошибка...</div>;
 		if (!data) return <div>Ошибка data...</div>;
+	document.title = data.name;
 	return (
 		<div>
 			<section>

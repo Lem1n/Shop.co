@@ -5,11 +5,12 @@ import { ProductCart } from "@/widgets/product-cart/product-cart";
 import { HR } from "@/shared/hr-tag/HR";
 function Cart() {
 	const { cart } = useCart();
-	const { itemsOldPrice, itemsTotalPrice, Discount, percent } = useItemsReducers();
+	const { itemsOldPrice, itemsTotalPrice, Discount, percent, Delivery } = useItemsReducers();
+	document.title = "Cart"
 
 	return (
 		<section>
-			<h1 className="mb-6 text-5xl font-bold">Your cart</h1>
+			<h1 className="mb-6 text-5xl font-bold uppercase">Your cart</h1>
 			<div className="flex gap-5">
 				<div className="w-3/5">
 					<div
@@ -48,7 +49,7 @@ function Cart() {
 								</div>
 								<div className="flex justify-between items-center">
 									<p className="text-black/60">Delvery Fee</p>
-									<span>$15</span>
+									<span>${Delivery}</span>
 								</div>
 							</div>
 							<hr className="text-black/10 my-5" />

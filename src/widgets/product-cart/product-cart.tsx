@@ -17,7 +17,6 @@ export const ProductCart = ({ item }: ProductCart) => {
 			<div className="flex items-center">
 				<div className="w-31 h-full">
 					<Link to={href(ROUTES.PRODUCT, { itemId: item.id })}>
-						{" "}
 						<img
 							src={item.photos[0].url}
 							alt={item.name}
@@ -45,7 +44,16 @@ export const ProductCart = ({ item }: ProductCart) => {
 							</div>
 						</div>
 					</div>
-					<span className="font-bold mt-3.5">${item.price.new}</span>
+					<div className="flex items-center gap-2">
+						<span className="font-bold mt-3.5">
+							${item.price.new}
+						</span>
+						{item.price.old && (
+							<s className="font-bold mt-3.5 text-black/40">
+								${item.price.old}
+							</s>
+						)}
+					</div>
 				</div>
 			</div>
 			<div className="flex flex-col items-end justify-between">

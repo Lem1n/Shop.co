@@ -59,7 +59,7 @@ export const Filters = ({ handleFilter, selectColor, setSelectColor, selectSize,
 					<h2 className="text-xl font-bold">Dress Style</h2>
 					<div className="flex flex-col gap-5">
 						{styles.map((i) => (
-							<Link to={`/shop/${i.name}`} key={i.id}>
+							<Link to={`/${i.name}`} key={i.id}>
 								{i.name}
 							</Link>
 						))}
