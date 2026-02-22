@@ -1,8 +1,8 @@
-import { Stars } from "@/entities/Stars/stars"
-import SvgIcon from "@/features/svg-icon/SvgIcon";
+import { Stars } from "@/entities/Stars/stars";
+import SvgIcon from "@/features/model/svg-icon/SvgIcon";
 
 interface Comment {
-    className: string;
+	className: string;
 	comment: {
 		id: string;
 		rating: number;
@@ -21,7 +21,7 @@ export const Comment = ({ comment, className }: Comment) => {
 				<Stars rating={comment.rating} />
 				<div className="flex gap-1 items-center">
 					<h3 className="font-bold text-xl">{comment.name}</h3>
-					<SvgIcon name="shared-checkbox-green" className="w-6 h-6"/>
+					<SvgIcon name="shared-checkbox-green" className="w-6 h-6" />
 				</div>
 				<p className="text-black/60">{comment.text}</p>
 			</div>

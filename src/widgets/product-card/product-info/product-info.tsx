@@ -1,11 +1,11 @@
 import type { Product } from "../../../shared/api/types/api.types";
 import { Stars } from "../../../entities/Stars/stars";
 import { calcPercent } from "../../../entities/calcPercent/calcPercent";
-import { Colors } from "../../../features/select-colors/Colors";
-import { Size } from "../../../features/select-size/Size";
+import { Colors } from "../../../features/model/select-colors/Colors";
+import { Size } from "../../../features/model/select-size/Size";
 import { Button } from "../../../shared/buttons/button";
 import { useState } from "react";
-import { HandleAmount } from "../../../features/handle-amount/amount";
+import { HandleAmount } from "../../../features/model/handle-amount/amount";
 import { HR } from "../../../shared/hr-tag/HR";
 import { useActions } from "@/entities/cart/hooks/useActions";
 import type { ICart } from "@/entities/cart/type/type";
@@ -17,18 +17,18 @@ interface ProductInfo {
 export const ProductInfo = ({ item }: ProductInfo) => {
 	const percent = calcPercent({ newP: item.price.new, oldP: item.price.old });
 	const [selectSize, setSelectSize] = useState<string>("");
-	const [currentColor, setCurrentColor] = useState<string>("");
+	const [selectColor, setSelectColor] = useState<string>("");
 	const [amount, setAmount] = useState(1);
 
-	const {addItem} = useActions();
+	const { addItem } = useActions();
 
 	const newItem: ICart = {
 		...item,
 		price: { new: amount * item.price.new, old: amount * item.price.old },
 		size: selectSize,
-		color: currentColor ,
+		color: selectColor,
 		amount: amount,
-	}; 
+	};
 
 	return (
 		<div className="w-full">
@@ -55,17 +55,17 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 			<div>
 				<div className="mb-4">Select Colors</div>
 				<Colors
-					data={item}
+					data={item.colors}
 					className=""
-					currentColor={currentColor}
-					setCurrentColor={setCurrentColor}
+					selectColor={selectColor}
+					setSelectColor={setSelectColor}
 				/>
 			</div>
 			<HR />
 			<div>
 				<div className="mb-4">Choose Size</div>
 				<Size
-					data={item}
+					data={item.size}
 					selectSize={selectSize}
 					setSelectSize={setSelectSize}
 					className="gap-3"
@@ -81,9 +81,9 @@ export const ProductInfo = ({ item }: ProductInfo) => {
 				/>
 				<Button
 					value="Add to Cart"
-					className="w-2/3 disabled:bg-black/30"
+					className="w-2/3"
 					onClick={() => addItem({ payload: newItem })}
-					disabled={selectSize === "" || currentColor === ""}
+					disabled={selectSize === "" || selectColor === ""}
 				/>
 			</div>
 		</div>

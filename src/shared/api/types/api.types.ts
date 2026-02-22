@@ -2,8 +2,8 @@ import z from "zod";
 
 const productDtoSchema = z.object({
 	id: z.string(),
-	styleId: z.number(),
-	categoryId: z.number(),
+	styleId: z.string(),
+	categoryId: z.string(),
 	author: z.string(),
 	name: z.string(),
 	description: z.string(),

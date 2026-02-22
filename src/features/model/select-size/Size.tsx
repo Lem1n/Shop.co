@@ -1,17 +1,15 @@
-import type { Product } from "@/shared/api/types/api.types";
 import React from "react";
 interface Size {
-	data: Product;
+	data: string[];
 	selectSize: string;
 	setSelectSize: React.Dispatch<React.SetStateAction<string>>;
 	className: string;
 }
 
 export const Size = ({ data, selectSize, setSelectSize, className }: Size) => {
-	const {size} = data;
 	return (
 		<div className={`${className} flex align-center`}>
-			{size.map((i, index) => (
+			{data.map((i, index) => (
 				<button
 					key={index}
 					onClick={() => setSelectSize(i)}

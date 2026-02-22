@@ -1,4 +1,4 @@
-import SvgIcon from "../../features/svg-icon/SvgIcon";
+import SvgIcon from "../../features/model/svg-icon/SvgIcon";
 
 export const Brands = () => {
 	return (

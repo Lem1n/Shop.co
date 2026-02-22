@@ -1,20 +1,10 @@
-import { Link } from "react-router-dom";
-import { ROUTES } from "../../app/Routes/Routes";
+import { ShopLayer } from "@/features/ui/shop-layer/shop-layer";
 
 
 function Shop (){
     
   return (
-		<section>
-			<div>
-				<ul>
-					<li>
-						<Link to={ROUTES.HOME}>Home</Link>
-					</li>
-					<li>Cart</li>
-				</ul>
-			</div>
-		</section>
+		<ShopLayer />
   );
 }
 

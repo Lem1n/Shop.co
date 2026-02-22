@@ -10,7 +10,7 @@ export const Button = ({ onClick, value, className, disabled, type }: Button) =>
 		<button
 			disabled={disabled}
             type={type}
-			className={`font-base rounded-4xl text-white bg-black ${className}`}
+			className={`font-base rounded-4xl text-white bg-black disabled:bg-black/40 ${className}`}
 			onClick={onClick}
 		>
 			{value}

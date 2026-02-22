@@ -20,7 +20,7 @@ export const Intro = () => {
 						<div>
 							<Link
 								className="text-white bg-black rounded-4xl py-3.5 px-17"
-								to={`/shop/item/29184756`}
+								to={`/shop/234567`}
 							>
 								Shop Now
 							</Link>

@@ -1,26 +1,48 @@
 import { Link } from "react-router-dom";
-import SvgIcon from "../../../features/svg-icon/SvgIcon";
+import SvgIcon from "../../../features/model/svg-icon/SvgIcon";
 import { ROUTES } from "../../../app/Routes/Routes";
 import { Logo } from "../../../shared/logo/logo";
 import { useCart } from "@/entities/cart/hooks/useCart";
+import { useArrays } from "@/shared/arrays/arrayFilter";
+import { useState } from "react";
 
 export const Nav = () => {
+	const { cart } = useCart();
 
-	const {cart} = useCart();
+	const [isActive, setIsActive] = useState<boolean>(false)
+
+	const {styles} = useArrays();
 
 	return (
 		<nav className="flex items-center w-full h-12 gap-10">
 			<Logo />
-			<ul className="flex gap-6 items-center">
-				<li className="flex items-center gap-1">
-					<Link to={ROUTES.SHOP} className="text-black">
-						Shop
-					</Link>
-					<SvgIcon className="w-4 h-4" name="shared-arrow-mini" />
+			<ul className="flex gap-3 items-center">
+				<li className="relative">
+					<div
+						className={`flex items-center gap-1 p-2  border-t-[1px] border-l-[1px] border-r-[1px]  rounded-t-2xl ${isActive ? "border-black/10" : "border-transparent"}`}
+					>
+						<Link to={ROUTES.SHOPALL} className="text-black" onClick={()=> setIsActive(false)}>
+							Shop
+						</Link>
+						<SvgIcon
+							className="w-4 h-4"
+							name="shared-arrow-mini"
+							onClick={() => setIsActive((prev) => !prev)}
+						/>
+					</div>
+					{isActive && (
+						<div className="flex flex-col gap-1 absolute bg-color-white w-full mt-[36px] p-2 top-0 left-0 border-l-[1px] border-r-[1px] border-b-[1px] rounded-b-2xl border-black/10">
+							{styles.map((i) => (
+								<Link key={i.id} to={`/${i.name}`} onClick={() => setIsActive( prev => !prev)}>
+									{i.name}
+								</Link>
+							))}
+						</div>
+					)}
 				</li>
-				<li>On Sale</li>
-				<li>New Arrivals</li>
-				<li>Brands</li>
+				<li className="p-2">On Sale</li>
+				<li className="p-2">New Arrivals</li>
+				<li className="p-2">Brands</li>
 			</ul>
 			<div className="relative w-full">
 				<SvgIcon

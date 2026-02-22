@@ -38,6 +38,13 @@ export const router = createBrowserRouter([
 				},
 				children: [
 					{
+						path: "all",
+						lazy: () => import("@/pages/shop/shop.page"),
+						handle: {
+							crumb: () => "All",
+						},
+					},
+					{
 						path: ":itemId",
 						lazy: () =>
 							import("@/pages/product-card/product-card.page"),
@@ -46,6 +53,13 @@ export const router = createBrowserRouter([
 						},
 					},
 				],
+			},
+			{
+				path: ":items",
+				lazy: () => import("@/pages/shop/shop.page"),
+				handle: {
+					crumb: () => <ProductCrumb />,
+				},
 			},
 			{
 				path: "cart",
@@ -72,5 +86,3 @@ export const router = createBrowserRouter([
 		],
 	},
 ]);
-
-

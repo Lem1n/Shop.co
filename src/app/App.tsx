@@ -2,7 +2,7 @@ import "./styles/App.css";
 import { Header } from "../widgets/header/header";
 import { Outlet, useLocation } from "react-router-dom";
 import { Breadcrumbs } from "@/features/breadcrumbs/breadcrumbs";
-import { FixedHeader } from "@/features/header/fixed-header";
+import { FixedHeader } from "@/features/ui/header/fixed-header";
 import { Suspense, useEffect } from "react";
 
 function App() {

@@ -1,8 +1,8 @@
 import { ROUTES } from "@/app/Routes/Routes";
 import { useActions } from "@/entities/cart/hooks/useActions";
 import type { ICart } from "@/entities/cart/type/type";
-import { HandleAmount } from "@/features/handle-amount/amount";
-import SvgIcon from "@/features/svg-icon/SvgIcon";
+import { HandleAmount } from "@/features/model/handle-amount/amount";
+import SvgIcon from "@/features/model/svg-icon/SvgIcon";
 import { href, Link } from "react-router-dom";
 
 interface ProductCart {
@@ -54,8 +54,18 @@ export const ProductCart = ({ item }: ProductCart) => {
 				</button>
 				<HandleAmount
 					amount={item.amount}
-					changeAmountMinus={() => handleItem({itemId: item.id, payload: {type: "decrement"}})}
-					changeAmountPlus={() => handleItem({itemId: item.id, payload: {type: "increment"}})}
+					changeAmountMinus={() =>
+						handleItem({
+							itemId: item.id,
+							payload: { type: "decrement" },
+						})
+					}
+					changeAmountPlus={() =>
+						handleItem({
+							itemId: item.id,
+							payload: { type: "increment" },
+						})
+					}
 					className="w-31.5 h-11 py-3 px-5"
 				/>
 			</div>

@@ -2,12 +2,10 @@
 
 export const ROUTES = {
 	HOME: "/",
-
+	ITEMS: "/:items",
+	
 	SHOP: "/shop",
-	CASUAL: "/shop/casual",
-	FORMAL: "/shop/formal",
-	PARTY: "/shop/party",
-	GYM: "/shop/gym",
+	SHOPALL: "/shop/all",
 	PRODUCT: "/shop/:itemId",
 
 	CART: "/cart",
@@ -16,10 +14,13 @@ export const ROUTES = {
 
 
 export type PathParams = {
-    [ROUTES.PRODUCT]: {
-        itemId: string
-    }
-}
+	[ROUTES.PRODUCT]: {
+		itemId: string;
+	};
+	[ROUTES.ITEMS]: {
+		items: string;
+	};
+};
 
 declare module "react-router-dom" {
     interface Register {

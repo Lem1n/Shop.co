@@ -1,12 +1,12 @@
 // Breadcrumbs.tsx
-import {useLocation, useMatches } from "react-router-dom";
-import SvgIcon from "../svg-icon/SvgIcon";
+import { useLocation, useMatches } from "react-router-dom";
+import SvgIcon from "../model/svg-icon/SvgIcon";
 
 export const Breadcrumbs = () => {
 	const matches = useMatches();
 	const location = useLocation();
 
-	if (location.pathname === '/') return
+	if (location.pathname === "/") return;
 
 	const crumbs = matches
 		.filter((match) => Boolean((match.handle as any)?.crumb))
