@@ -4,6 +4,8 @@ import SvgIcon from "@/features/model/svg-icon/SvgIcon";
 import { useArrays } from "@/shared/arrays/arrayFilter";
 import { Button } from "@/shared/buttons/button";
 import { HR } from "@/shared/hr-tag/HR";
+import Slider from "rc-slider";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 interface Filters {
@@ -14,7 +16,11 @@ interface Filters {
 	setSelectSize: React.Dispatch<React.SetStateAction<string>>;
 }
 export const Filters = ({ handleFilter, selectColor, setSelectColor, selectSize, setSelectSize }: Filters) => {
-	const { categories, styles, sizes, colors} = useArrays();
+	const { styles, sizes, colors} = useArrays();
+	const [price, setPrice] = useState([0, 100])
+	const handleChange = (value:[]) => {
+		setPrice(value)
+	}
 	return (
 		<div className="border-[1px] border-black/10 rounded-2xl w-[315px]">
 			<div className="py-5 px-6 ">
@@ -26,14 +32,21 @@ export const Filters = ({ handleFilter, selectColor, setSelectColor, selectSize,
 					/>
 				</div>
 				<HR />
-				<div className="flex flex-col gap-5 items-start">
-					{categories.map((i) => (
-						<button key={i.id}>{i.name}</button>
-					))}
-				</div>
-				<HR />
 				<div>
 					<h2 className="text-xl font-bold">Price</h2>
+					<div className="price-filter">
+						<div>
+							от {price[0]} до {price[1]}
+						</div>
+						<Slider
+							range
+							min={0}
+							max={100}
+							value={price}
+							onChange={handleChange}
+							marks={{ 0: "0", 5000: "5k", 10000: "10k" }}
+						/>
+					</div>
 				</div>
 				<HR />
 				<div>

@@ -1,11 +1,10 @@
 import type { PathParams, ROUTES } from "@/app/Routes/Routes";
-import SvgIcon from "@/features/model/svg-icon/SvgIcon";
 import { useGetProductsFilterPageQuery } from "@/shared/api/Product.api";
 import { HR } from "@/shared/hr-tag/HR";
 import { Pagination } from "@/widgets/pagination/pagination";
 import { ProductMini } from "@/widgets/product-mini/productMini";
 import { Filters } from "@/widgets/shop-filters/filters";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 
 export const ShopLayer = () => {
@@ -13,22 +12,26 @@ export const ShopLayer = () => {
 
 	document.title = items ? items : "Shop.co";
 
-	const initialState = `&_per_page=9&${items ? `styleId=${items}&` : "_sort=createdAt&"}`;
+	const [state, setState] = useState<string>(
+		`&_per_page=9&${items ? `styleId=${items}&` : "_sort=createdAt&"}`,
+	);
+	// надо фиксить фильтр + новый фильтр !== новый фильтр
 
-	const [content, setContent] = useState<string>(`_page=1${initialState}`);
+	const [content, setContent] = useState<string>(`_page=1${state}`);
 
 	const [selectColor, setSelectColor] = useState<string>("");
 	const [selectSize, setSelectSize] = useState<string>("");
 
 	const handleFilter = () => {
 		setContent(
-			`_page=1${initialState}size:gt=${selectSize}&colors:gt=${selectColor}`,
+			`_page=1${state}size:gt=${selectSize}&colors:gt=${selectColor}`,
 		);
+		setState ( `${state}size:gt=${selectSize}&colors:gt=${selectColor}`);
 	};
 
 	const handlePage = (page: number): void => {
-		setContent(`_page=${page}${initialState}`);
-		window.scrollTo(0, 900);
+		setContent(`_page=${page}${state}`);
+		window.scrollTo(0, 0);
 	};
 	const { isLoading, data, error } = useGetProductsFilterPageQuery(content);
 
@@ -36,7 +39,6 @@ export const ShopLayer = () => {
 	if (error) return <div>Ошибка...</div>;
 	if (!data) return <div>Ошибка data...</div>;
 	const { first, prev, next, last } = data;
-
 
 	return (
 		<section className="flex gap-5">
@@ -66,13 +68,13 @@ export const ShopLayer = () => {
 					))}
 				</div>
 				<HR />
-				<Pagination
-					first={first}
-					last={last}
-					next={next}
-					prev={prev}
-					handlePage={handlePage}
-				/>
+					<Pagination
+						first={first}
+						last={last}
+						next={next}
+						prev={prev}
+						handlePage={handlePage}
+					/>
 			</div>
 		</section>
 	);
